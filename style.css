@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color:aqua;
+    box-sizing: border-box;
+    
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6%
+}
+
+strong{
+    color:chocolate;
+}
+
+.foto{
+    width: 800px;
+}
+
+.titulo{
+    font-family: "Tagesschrift", system-ui;
+    color:tomato;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 150px;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    text-decoration: none;
+    font-family: "Tagesschrift", system-ui;
+
+}
